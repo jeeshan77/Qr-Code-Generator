@@ -39,6 +39,8 @@ function App() {
             type="color"
             onChange={(e) => setBgColor(e.target.value.substring(1))}
           />
+          <div>
+            
           <h5>Dimension:</h5>
           <input
             type="range"
@@ -46,7 +48,8 @@ function App() {
             max="600"
             value={size}
             onChange={(e) => setSize(e.target.value)}
-          />
+            />
+            </div>
         </div>
       </div>
       <div className="output-box">
